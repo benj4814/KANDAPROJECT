@@ -1,0 +1,11 @@
+Model Information:
+* title:	Adam 2023
+* source:	https://sketchfab.com/3d-models/adam-2023-383d083bafc4430aa2c6f43fd163d4e7
+* author:	DigitalSurrealist (https://sketchfab.com/DigitalSurrealist)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Adam 2023" (https://sketchfab.com/3d-models/adam-2023-383d083bafc4430aa2c6f43fd163d4e7) by DigitalSurrealist (https://sketchfab.com/DigitalSurrealist) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

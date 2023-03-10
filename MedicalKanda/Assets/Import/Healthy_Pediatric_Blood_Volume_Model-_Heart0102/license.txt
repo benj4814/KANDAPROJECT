@@ -1,0 +1,11 @@
+Model Information:
+* title:	Healthy Pediatric Blood Volume Model- Heart0102
+* source:	https://sketchfab.com/3d-models/healthy-pediatric-blood-volume-model-heart0102-f4bc5d11625f4aa1bd973dc3e7d59b61
+* author:	VisibleHeartLabs (https://sketchfab.com/VisibleHeartLabs)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Healthy Pediatric Blood Volume Model- Heart0102" (https://sketchfab.com/3d-models/healthy-pediatric-blood-volume-model-heart0102-f4bc5d11625f4aa1bd973dc3e7d59b61) by VisibleHeartLabs (https://sketchfab.com/VisibleHeartLabs) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
