@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OrganTray : MonoBehaviour
+public class LungsTray : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Heart")
+        if (other.gameObject.name == "Lungs")
         {
-            Debug.Log("Organ accepted");
+            Debug.Log("Lungs accepted");
         }
         else
         {
