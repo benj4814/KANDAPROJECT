@@ -1,0 +1,11 @@
+Model Information:
+* title:	Table
+* source:	https://sketchfab.com/3d-models/table-38628809fe1841aa84437c56568d1a70
+* author:	TheNelist (https://sketchfab.com/TheNelist_Design)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Table" (https://sketchfab.com/3d-models/table-38628809fe1841aa84437c56568d1a70) by TheNelist (https://sketchfab.com/TheNelist_Design) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

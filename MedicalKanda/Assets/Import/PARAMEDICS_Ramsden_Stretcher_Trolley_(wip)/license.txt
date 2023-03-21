@@ -1,0 +1,11 @@
+Model Information:
+* title:	PARAMEDICS Ramsden Stretcher Trolley (wip)
+* source:	https://sketchfab.com/3d-models/paramedics-ramsden-stretcher-trolley-wip-7924b502c54649c2b536d2f7bf2a5ae6
+* author:	zramsden (https://sketchfab.com/zramsden)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PARAMEDICS Ramsden Stretcher Trolley (wip)" (https://sketchfab.com/3d-models/paramedics-ramsden-stretcher-trolley-wip-7924b502c54649c2b536d2f7bf2a5ae6) by zramsden (https://sketchfab.com/zramsden) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

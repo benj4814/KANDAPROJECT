@@ -1,0 +1,11 @@
+Model Information:
+* title:	Male Figure Study / Base Mesh
+* source:	https://sketchfab.com/3d-models/male-figure-study-base-mesh-e7d4328ba2574e1ebe3bbffb7975cae3
+* author:	Ghalban (https://sketchfab.com/Ghalban)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Male Figure Study / Base Mesh" (https://sketchfab.com/3d-models/male-figure-study-base-mesh-e7d4328ba2574e1ebe3bbffb7975cae3) by Ghalban (https://sketchfab.com/Ghalban) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

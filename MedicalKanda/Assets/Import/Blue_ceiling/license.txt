@@ -1,0 +1,11 @@
+Model Information:
+* title:	Blue ceiling
+* source:	https://sketchfab.com/3d-models/blue-ceiling-981dbca21bef4d7a83fd3d245aa862c1
+* author:	Benoît Rogez (https://sketchfab.com/shadows44)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Blue ceiling" (https://sketchfab.com/3d-models/blue-ceiling-981dbca21bef4d7a83fd3d245aa862c1) by Benoît Rogez (https://sketchfab.com/shadows44) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

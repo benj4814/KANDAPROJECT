@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chateau de Versailles - Ceiling Tile quick scan
+* source:	https://sketchfab.com/3d-models/chateau-de-versailles-ceiling-tile-quick-scan-5f58d6a95b824cccbf158bc93dc3f7bf
+* author:	3DSCANFR (sdrn) (https://sketchfab.com/3DSCANFR)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chateau de Versailles - Ceiling Tile quick scan" (https://sketchfab.com/3d-models/chateau-de-versailles-ceiling-tile-quick-scan-5f58d6a95b824cccbf158bc93dc3f7bf) by 3DSCANFR (sdrn) (https://sketchfab.com/3DSCANFR) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
