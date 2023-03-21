@@ -56,4 +56,13 @@ public class PlayerInteraction : MonoBehaviour
             }
         }
     }
+    private void LateUpdate()
+    {
+        if (isInteracting) // If the player is currently interacting with an object
+        {
+            transform.position = currentInteractableObject.interactionTransform.position; // Set the player's position to the interaction position of the object
+            transform.rotation = currentInteractableObject.interactionTransform.rotation; // Set the player's rotation to the interaction rotation of the object
+        }
+    }
 }
+
