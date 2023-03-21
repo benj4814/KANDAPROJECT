@@ -8,6 +8,7 @@ public class PlayerInteraction : MonoBehaviour
     public float interactionDistance; // How far the player can interact with objects
     public LayerMask interactableLayer; // The layer that contains interactable objects
     public GameObject cursor; // The cursor object to hide/show when interacting
+    public GameObject book; // The cursor object to hide/show when interacting
 
     private InteractableObject currentInteractableObject = null; // The current object the player is interacting with
     private bool isInteracting = false; // Flag to check if the player is currently interacting with an object
@@ -31,6 +32,7 @@ public class PlayerInteraction : MonoBehaviour
                         currentInteractableObject.isInteractable = true; // Set the interactable flag on the object
                         currentInteractableObject.uiCanvas.SetActive(true); // Show the UI canvas for the object
                         cursor.SetActive(false); // Hide the cursor
+                        book.SetActive(false); // Hide the book
                         originalPosition = transform.position; // Save the original position of the player
                         originalRotation = transform.rotation; // Save the original rotation of the player
                         transform.position = currentInteractableObject.interactionTransform.position; // Move the player to the interaction position of the object
@@ -47,10 +49,20 @@ public class PlayerInteraction : MonoBehaviour
                 currentInteractableObject.isInteractable = false; // Set the interactable flag on the object to false
                 currentInteractableObject.uiCanvas.SetActive(false); // Hide the UI canvas for the object
                 cursor.SetActive(true); // Show the cursor
+                book.SetActive(true); // Show the book
                 transform.position = originalPosition; // Move the player back to the original position
                 transform.rotation = originalRotation; // Rotate the player back to the original rotation
                 currentInteractableObject = null; // Set the current interactable object to null
             }
         }
     }
+    private void LateUpdate()
+    {
+        if (isInteracting) // If the player is currently interacting with an object
+        {
+            transform.position = currentInteractableObject.interactionTransform.position; // Set the player's position to the interaction position of the object
+            transform.rotation = currentInteractableObject.interactionTransform.rotation; // Set the player's rotation to the interaction rotation of the object
+        }
+    }
 }
+
