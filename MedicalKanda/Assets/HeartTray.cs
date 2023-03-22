@@ -4,15 +4,40 @@ using UnityEngine;
 
 public class HeartTray : MonoBehaviour
 {
+    public GameObject heart;
+    public GameObject liver;
+    public GameObject lungs;
+    public AudioClip successSound;
+
+    private bool heartPlaced;
+    private bool liverPlaced;
+    private bool lungsPlaced;
+
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Heart")
+        if (other.gameObject == heart)
         {
-            Debug.Log("Heart accepted");
+            heartPlaced = true;
         }
-        else
+        else if (other.gameObject == liver)
         {
-            Debug.Log("Organ not accepted");
+            liverPlaced = true;
+        }
+        else if (other.gameObject == lungs)
+        {
+            lungsPlaced = true;
+        }
+
+        if (heartPlaced && liverPlaced && lungsPlaced)
+        {
+            audioSource.PlayOneShot(successSound);
         }
     }
 }
