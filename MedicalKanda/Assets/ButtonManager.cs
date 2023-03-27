@@ -13,7 +13,7 @@ public class ButtonManager : MonoBehaviour
     {
         buttonsPressed++;
 
-        if (buttonsPressed >= 3)
+        if (buttonsPressed == 3)
         {
             doorOpener.Open();
         }
