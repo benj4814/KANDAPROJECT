@@ -1,0 +1,11 @@
+Model Information:
+* title:	Спот 3801/1W Odeon Light
+* source:	https://sketchfab.com/3d-models/38011w-odeon-light-f23329c5eb2e4f428f189f94cbd3bd43
+* author:	fedomo.ru (https://sketchfab.com/fedomo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Спот 3801/1W Odeon Light" (https://sketchfab.com/3d-models/38011w-odeon-light-f23329c5eb2e4f428f189f94cbd3bd43) by fedomo.ru (https://sketchfab.com/fedomo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
