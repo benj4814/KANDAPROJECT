@@ -1839,6 +1839,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 74.3, y: 68.1, z: 92.5}
   m_Center: {x: 0, y: 10.000012, z: 0}
+--- !u!114 &827707574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827707571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc21224ec97d4441bac902fcd111724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundClip: {fileID: 8300000, guid: 0ba822d4fe629284aa133ce28899a4db, type: 3}
+--- !u!81 &827707578
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827707571}
+  m_Enabled: 1
 --- !u!1 &830167283
 GameObject:
   m_ObjectHideFlags: 0
