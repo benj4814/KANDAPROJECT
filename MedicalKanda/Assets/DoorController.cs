@@ -1,8 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class DoorController : MonoBehaviour {
     public GameObject leftDoor;
     public GameObject rightDoor;
+    public float doorOpenAngle = 90f;
+    public float smooth = 2f;
     private bool isOpen = false;
     private bool isPlayerInsideZone = false;
 
@@ -23,14 +26,25 @@ public class DoorController : MonoBehaviour {
     void Update() {
         if (isPlayerInsideZone && isOpen && Input.GetKeyDown(KeyCode.E)) {
             // Close the doors
-            leftDoor.transform.rotation *= Quaternion.Euler(0, 90, 0);
-            rightDoor.transform.rotation *= Quaternion.Euler(0, -90, 0);
+            StartCoroutine(RotateDoors(leftDoor.transform, Quaternion.Euler(0, 0, 0), smooth));
+            StartCoroutine(RotateDoors(rightDoor.transform, Quaternion.Euler(0, 0, 0), smooth));
             isOpen = false;
         } else if (isPlayerInsideZone && !isOpen && Input.GetKeyDown(KeyCode.E)) {
             // Open the doors
-            leftDoor.transform.rotation *= Quaternion.Euler(0, -90, 0);
-            rightDoor.transform.rotation *= Quaternion.Euler(0, 90, 0);
+            StartCoroutine(RotateDoors(leftDoor.transform, Quaternion.Euler(0, doorOpenAngle, 0), smooth));
+            StartCoroutine(RotateDoors(rightDoor.transform, Quaternion.Euler(0, -doorOpenAngle, 0), smooth));
             isOpen = true;
         }
+    }
+
+    IEnumerator RotateDoors(Transform door, Quaternion endRotation, float duration) {
+        float t = 0f;
+        Quaternion startRotation = door.rotation;
+        while (t < duration) {
+            t += Time.deltaTime;
+            door.rotation = Quaternion.Lerp(startRotation, endRotation, t / duration);
+            yield return null;
+        }
+        door.rotation = endRotation;
     }
 }
