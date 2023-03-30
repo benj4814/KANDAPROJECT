@@ -8,6 +8,8 @@ public class DoorController : MonoBehaviour {
     public float smooth = 2f;
     private bool isOpen = false;
     private bool isPlayerInsideZone = false;
+    public AudioSource doorAudioSource;
+public AudioClip doorOpenSound;
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
@@ -24,16 +26,19 @@ public class DoorController : MonoBehaviour {
     }
 
     void Update() {
-        if (isPlayerInsideZone && isOpen && Input.GetKeyDown(KeyCode.E)) {
+        if (isPlayerInsideZone && isOpen && Input.GetKeyDown(KeyCode.Mouse0)) {
             // Close the doors
             StartCoroutine(RotateDoors(leftDoor.transform, Quaternion.Euler(0, 0, 0), smooth));
             StartCoroutine(RotateDoors(rightDoor.transform, Quaternion.Euler(0, 0, 0), smooth));
             isOpen = false;
-        } else if (isPlayerInsideZone && !isOpen && Input.GetKeyDown(KeyCode.E)) {
+            doorAudioSource.PlayOneShot(doorOpenSound);
+        } else if (isPlayerInsideZone && !isOpen && Input.GetKeyDown(KeyCode.Mouse0)) {
             // Open the doors
             StartCoroutine(RotateDoors(leftDoor.transform, Quaternion.Euler(0, doorOpenAngle, 0), smooth));
             StartCoroutine(RotateDoors(rightDoor.transform, Quaternion.Euler(0, -doorOpenAngle, 0), smooth));
             isOpen = true;
+
+            doorAudioSource.PlayOneShot(doorOpenSound);
         }
     }
 
