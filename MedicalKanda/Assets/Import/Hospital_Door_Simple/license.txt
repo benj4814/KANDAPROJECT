@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hospital Door Simple
+* source:	https://sketchfab.com/3d-models/hospital-door-simple-273752be634442cc928b51391fda6233
+* author:	Sophie_RealityArtist (https://sketchfab.com/KimSophiesArtist)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hospital Door Simple" (https://sketchfab.com/3d-models/hospital-door-simple-273752be634442cc928b51391fda6233) by Sophie_RealityArtist (https://sketchfab.com/KimSophiesArtist) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

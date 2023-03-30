@@ -9,19 +9,19 @@ public class ColorChangeButton : MonoBehaviour
 
     private Renderer buttonRenderer;
     private ButtonManager buttonManager;
+    private bool buttonClicked = false;
 
     void Start()
     {
         buttonRenderer = GetComponent<Renderer>();
         buttonRenderer.material = redMaterial;
         
-
         buttonManager = GameObject.Find("GameManager").GetComponent<ButtonManager>();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (!buttonClicked && Input.GetKeyDown(KeyCode.Mouse0)) // Only allow click if button not clicked before
         {
             Ray ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
             RaycastHit hit;
@@ -30,10 +30,10 @@ public class ColorChangeButton : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     buttonRenderer.material = greenMaterial;
+                    buttonClicked = true; // Mark button as clicked
 
                     buttonManager.ButtonPressed();
                 }
-                
             }
         }
     }
