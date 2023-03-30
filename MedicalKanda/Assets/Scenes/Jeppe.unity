@@ -1939,7 +1939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf27b6f5987a8a645ac0c0431a93606b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorOpener: {fileID: 0}
+  doorOpener: {fileID: 1488536698}
 --- !u!4 &830167285
 Transform:
   m_ObjectHideFlags: 0
@@ -5957,6 +5957,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1517461694286079211, guid: 88cc7ab6daade794d9b1cd6bb7225b8b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517461694286079211, guid: 88cc7ab6daade794d9b1cd6bb7225b8b, type: 3}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1517461694937602624, guid: 88cc7ab6daade794d9b1cd6bb7225b8b, type: 3}
       propertyPath: m_Name
       value: Mellemrum
