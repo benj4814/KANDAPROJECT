@@ -6,15 +6,23 @@ using UnityEngine;
 public class Question : ScriptableObject
 {
     public string question;
-    public string answer;
+    public string[] answers;
     private bool isCorrect;
 
+
+// Her gør vi så der ikke bliver tjekket for punktum, komma og småbogstaver //
     public bool ValidateAnswer(string userAnswer)
     {
-        if (userAnswer == answer)
+        foreach(string answer in answers)
         {
-            SetCorrect();
-            return true;
+            userAnswer = userAnswer.Replace(".", "");
+            userAnswer = userAnswer.Replace(",", "");
+
+            if (userAnswer.ToLower() == answer.ToLower())
+            {
+                SetCorrect();
+                return true;
+            }
         }
 
         return false;

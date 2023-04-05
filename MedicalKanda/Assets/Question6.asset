@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0d4d28f4ac24e92b85646b0d3abf79, type: 3}
   m_Name: Question6
   m_EditorClassIdentifier: 
-  question: 
-  answer: 
+  question: "Hvad g\xF8r hjertet?"
+  answers:
+  - Pumper blod rundt i kroppen
+  - 'Pumper blod rundt '
+  - 'Pumper ilt rundt '
+  - Pumper ilt rundt i kroppen

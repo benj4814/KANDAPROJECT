@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0d4d28f4ac24e92b85646b0d3abf79, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: 
-  answer: 
+  question: "Hvor meget luft tr\xE6kker dine lunger ind? (I liter)"
+  answers:
+  - 0,5 liter
+  - 0.5 liter
+  - '0.5 '
+  - '0,5 '
+  - 05
