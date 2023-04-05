@@ -12,7 +12,7 @@ public class UImanager : MonoBehaviour
     public void CheckAnswer()
     {
         bool correct = QuizManager.Instance.GetCurrentQuestion().ValidateAnswer(answerText.text);
-        if (correct)
+        if (correct == true)
         {
             QuizManager.Instance.QuestionCompleted();
 
