@@ -163,7 +163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 413.7, y: 42.95}
+  m_AnchoredPosition: {x: 414.48, y: 42.95}
   m_SizeDelta: {x: 622, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &27582307
@@ -1244,6 +1244,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -149.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4192189097184046148, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 7112699702802724941, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
       propertyPath: m_RootOrder
       value: 0
