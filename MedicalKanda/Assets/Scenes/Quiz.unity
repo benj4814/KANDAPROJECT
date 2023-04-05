@@ -225,8 +225,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 27582307, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582308, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 27582308, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
       propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582309, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 27582309, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
@@ -236,6 +248,10 @@ PrefabInstance:
     - target: {fileID: 27582309, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582310, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 402541915, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
       propertyPath: m_Text
