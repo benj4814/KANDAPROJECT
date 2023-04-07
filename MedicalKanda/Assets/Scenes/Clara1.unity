@@ -200,7 +200,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402541914, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: -6.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541915, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_OnSelect.m_PersistentCalls.m_Calls.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541915, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_OnSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541915, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_OnSelect.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7112699702802724941, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
       propertyPath: m_RootOrder
