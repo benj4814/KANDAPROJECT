@@ -6,6 +6,9 @@ public class DragObject : MonoBehaviour
 {
     private Vector3 mOffset;
     private float mZCoord;
+    private bool isSnapped = false;
+
+    public GameObject organPosition;
 
     void OnMouseDown()
     {
@@ -13,6 +16,9 @@ public class DragObject : MonoBehaviour
 
         // Store offset = gameobject world pos - mouse world pos
         mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
+
+        // Set isSnapped to false when the player starts dragging the heart
+        isSnapped = false;
     }
 
     private Vector3 GetMouseAsWorldPoint()
@@ -29,6 +35,22 @@ public class DragObject : MonoBehaviour
 
     void OnMouseDrag()
     {
-        transform.position = GetMouseAsWorldPoint() + mOffset;
+        if (!isSnapped)
+        {
+            // If the heart is not snapped to the position, allow it to be dragged by the player
+            transform.position = GetMouseAsWorldPoint() + mOffset;
+        }
+    }
+
+    void OnMouseUp()
+    {
+        // Check if the heart is snapped to the heart position
+        if (!isSnapped && organPosition.GetComponent<Collider>().bounds.Contains(transform.position))
+        {
+            // Set isSnapped to true and snap the heart to the position when the player releases the left mouse button
+            transform.position = organPosition.transform.position;
+            GetComponent<Rigidbody>().isKinematic = true;
+            isSnapped = true;
+        }
     }
 }
