@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:MedicalKanda/Assets/Scenes/start.unity.meta
 guid: 25cac22df02cd4b1f910f003d99b6ee1
+========
+guid: 214a9033f72fe9e4f8b67a4a69512f87
+>>>>>>>> Jeppe-Er-Tilbage:MedicalKanda/Assets/Scenes/LevelSnap.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
