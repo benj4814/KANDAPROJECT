@@ -152,11 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64256c5342764eb43b21474fc3db129b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questions:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  questions: []
 --- !u!4 &17540349
 Transform:
   m_ObjectHideFlags: 0
