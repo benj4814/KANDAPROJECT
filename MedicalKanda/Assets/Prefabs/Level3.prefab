@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 27582306}
   - component: {fileID: 27582309}
   - component: {fileID: 27582308}
-  - component: {fileID: 27582307}
   - component: {fileID: 27582310}
+  - component: {fileID: 174349751}
   m_Layer: 5
   m_Name: UI Manager
   m_TagString: Untagged
@@ -28,7 +28,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27582305}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -149.41}
+  m_LocalPosition: {x: 0, y: 0, z: -149.82}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -40,7 +40,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 18.17, y: 42.04}
+  m_AnchoredPosition: {x: 18.88, y: 42.97}
   m_SizeDelta: {x: 622, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &27582309
@@ -87,7 +87,21 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 1
---- !u!114 &27582307
+--- !u!114 &27582310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27582305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8d077a07dd44ef78db137a2eacc96a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1767492298}
+  answerText: {fileID: 402541915}
+--- !u!114 &174349751
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,20 +118,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &27582310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 27582305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8d077a07dd44ef78db137a2eacc96a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questionText: {fileID: 1767492298}
-  answerText: {fileID: 402541915}
 --- !u!1 &354387220
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +344,6 @@ GameObject:
   - component: {fileID: 402541916}
   - component: {fileID: 402541915}
   - component: {fileID: 402541919}
-  - component: {fileID: 402541918}
   m_Layer: 5
   m_Name: InputField (TMP)
   m_TagString: Untagged
@@ -542,23 +541,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &402541918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402541913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!1 &1046442578
 GameObject:
   m_ObjectHideFlags: 0
@@ -3823,6 +3805,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f348440bfec7d4139b235b530d8c5ab6, type: 3}
+--- !u!1 &5338570845062226776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8087282010701805725, guid: f348440bfec7d4139b235b530d8c5ab6, type: 3}
+  m_PrefabInstance: {fileID: 4192189097881197509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1953518129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5338570845062226776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 448.47586, y: 127.73211, z: 14.714265}
+  m_Center: {x: -0.00000010051282, y: 0, z: -7.708915}
 --- !u!4 &8148151273377214838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5420550184523459251, guid: f348440bfec7d4139b235b530d8c5ab6, type: 3}
