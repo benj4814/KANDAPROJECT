@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class HeartTray : MonoBehaviour
 {
+    private TrayManager trayManager;
+
+    private void Start()
+    {
+        trayManager = GameObject.FindObjectOfType<TrayManager>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Heart")
         {
             Debug.Log("Heart accepted");
+            trayManager.OrganPlacedCorrectly();
         }
         else
         {
             Debug.Log("Organ not accepted");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.name == "Heart")
+        {
+            trayManager.OrganRemoved();
         }
     }
 }
