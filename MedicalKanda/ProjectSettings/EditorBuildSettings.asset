@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: 25cac22df02cd4b1f910f003d99b6ee1
+  - enabled: 1
     path: Assets/Scenes/Jeppe.unity
     guid: 221c8f7e88bed7245ab2266fcd4d524b
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: ab3193e529db34491a896bb053bea852
   m_configObjects: {}
