@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+public bool debugMode = false;
+
     [Header("Movement")]
     public float moveSpeed;
 
@@ -37,9 +39,7 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
         readyToJump = true;
 
-        // lock and hide cursor
-    Cursor.lockState = CursorLockMode.Locked;
-    Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
