@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,6 +130,90 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582306, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582308, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582308, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582309, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27582310, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541914, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541914, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541915, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_OnSelect.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541915, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_OnSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 402541915, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+      propertyPath: m_OnSelect.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7112699702802724941, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -178,5 +262,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 253099750, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+    - {fileID: 253099751, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+    - {fileID: 1030610961, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+    - {fileID: 1030610962, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+    - {fileID: 1977152616, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+    - {fileID: 1977152615, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+    - {fileID: 27582307, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
+    - {fileID: 402541918, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9e1d61386f7c14bd5803f9102ab9727c, type: 3}
