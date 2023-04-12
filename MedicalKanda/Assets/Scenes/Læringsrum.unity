@@ -174,6 +174,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5519514289074951449, guid: 0096d9b493b4e5e408dd677961d8b53a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6998af12522d3404198abf767c3ef60f, type: 2}
+    - target: {fileID: 5519514289731710675, guid: 0096d9b493b4e5e408dd677961d8b53a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fc4f5e935cfc6074cabc6f7995175f47, type: 2}
+    - target: {fileID: 5519514290563357636, guid: 0096d9b493b4e5e408dd677961d8b53a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6e9906274f959c3479b56372b63a1416, type: 2}
     - target: {fileID: 7451989151525501941, guid: 0096d9b493b4e5e408dd677961d8b53a, type: 3}
       propertyPath: m_Name
       value: EducationRoom
