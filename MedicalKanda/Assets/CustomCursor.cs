@@ -9,7 +9,7 @@ public class CustomCursor : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.I))
+        if (Input.GetMouseButtonDown(0))
         {
             input.Select();
         }
