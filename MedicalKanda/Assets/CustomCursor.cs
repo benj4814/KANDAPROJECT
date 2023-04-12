@@ -1,17 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using TMPro;
 
-public class CustomCursor : MonoBehaviour
+public class CustomCursor : MonoBehaviour, IPointerClickHandler
 {
     public TMP_InputField input;
 
-    void Update()
+    private bool inputSelected = false;
+
+    public void OnPointerClick(PointerEventData eventData)
     {
-        if(Input.GetKeyDown(KeyCode.I))
+        if (!inputSelected)
         {
+            inputSelected = true;
             input.Select();
         }
+    }
+
+    public void OnInputDeselect()
+    {
+        inputSelected = false;
     }
 }
