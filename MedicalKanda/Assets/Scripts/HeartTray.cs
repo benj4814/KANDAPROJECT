@@ -13,7 +13,7 @@ public class HeartTray : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Heart")
+        if (other.gameObject.name == "Heart2")
         {
             Debug.Log("Heart accepted");
             trayManager.OrganPlacedCorrectly();
@@ -26,7 +26,7 @@ public class HeartTray : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Heart")
+        if (other.gameObject.name == "Heart2")
         {
             trayManager.OrganRemoved();
         }

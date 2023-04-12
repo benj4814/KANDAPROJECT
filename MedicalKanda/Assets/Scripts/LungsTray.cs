@@ -13,7 +13,7 @@ public class LungsTray : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Lungs")
+        if (other.gameObject.name == "Lungs2")
         {
             Debug.Log("Lungs accepted");
             trayManager.OrganPlacedCorrectly();
@@ -26,7 +26,7 @@ public class LungsTray : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Lungs")
+        if (other.gameObject.name == "Lungs2")
         {
             trayManager.OrganRemoved();
         }
