@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
@@ -28,19 +29,20 @@ public class QuizManager : MonoBehaviour
         return questions[currentQuestion];
     }
 
-// Plus et spørgsmål oveni hver gang et spørgsmål er besvaret rigtigt //
     public void QuestionCompleted()
     {
         currentQuestion++;
+
+        if (QuizCompleted())
+        {
+            SceneManager.LoadScene("Game Is Finished"); // Replace with the name of the new scene to load
+        }
     }
 
-// Tjek om quizzen er færdige ved at spørge om currentQuestion er større end quizzens længde //
     public bool QuizCompleted()
     {
         return !(currentQuestion < questions.Length);
     }
-
-
 
     public Question GetQuestion(int index)
     {

@@ -16,4 +16,9 @@ public class MainMenuQuiz : MonoBehaviour
         Application.Quit();
     }
 
+    public void StartAgain ()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }
