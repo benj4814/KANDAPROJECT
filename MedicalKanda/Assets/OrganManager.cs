@@ -14,7 +14,7 @@ public void OrgansSnappedCorrectly()
     organsSnappedCorrectly++;
     Debug.Log("Organs placed correctly: " + organsSnappedCorrectly);
 
-    if (organsSnappedCorrectly >= 3)
+    if (organsSnappedCorrectly >= 2)
     {
         OpenDoor();
     }

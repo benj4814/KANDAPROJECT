@@ -12,11 +12,11 @@ public class InteractableObject : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 isInteractable = true;
             }
-            else if (Input.GetKeyDown(KeyCode.E) && isInteractable)
+            else if (Input.GetKeyDown(KeyCode.Mouse0) && isInteractable)
             {
                 isInteractable = false;
                 uiCanvas.SetActive(false);
