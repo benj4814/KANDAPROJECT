@@ -749,6 +749,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5519514289492785183, guid: fae0899c6084f0e4fb1cbcbee6e076a1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96265bae2c5d6ad4d9f896afee3b8164, type: 2}
     - target: {fileID: 7289267392913821122, guid: fae0899c6084f0e4fb1cbcbee6e076a1, type: 3}
       propertyPath: m_Name
       value: Whiteboard Variant
