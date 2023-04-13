@@ -25,7 +25,7 @@ public class PlayerInteraction : MonoBehaviour
                 InteractableObject interactableObject = hit.collider.GetComponent<InteractableObject>();
                 if (interactableObject) // If an interactable object is hit by the raycast
                 {
-                    if (Input.GetKeyDown(KeyCode.E)) // If the player presses the interact button
+                    if (Input.GetKeyDown(KeyCode.Mouse0)) // If the player presses the interact button
                     {
                         isInteracting = true; // Set the interaction flag to true
                         currentInteractableObject = interactableObject; // Set the current interactable object
@@ -43,7 +43,7 @@ public class PlayerInteraction : MonoBehaviour
         }
         else // If the player is currently interacting with an object
         {
-            if (Input.GetKeyDown(KeyCode.E) && currentInteractableObject) // If the player presses the interact button again
+            if (Input.GetKeyDown(KeyCode.Mouse0) && currentInteractableObject) // If the player presses the interact button again
             {
                 isInteracting = false; // Set the interaction flag to false
                 currentInteractableObject.isInteractable = false; // Set the interactable flag on the object to false

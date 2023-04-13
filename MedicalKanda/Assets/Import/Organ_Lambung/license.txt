@@ -1,0 +1,11 @@
+Model Information:
+* title:	Organ Lambung
+* source:	https://sketchfab.com/3d-models/organ-lambung-34bbf12325a34dd5abf4feb12587b97a
+* author:	adhesoeryadie (https://sketchfab.com/adhesoeryadie)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Organ Lambung" (https://sketchfab.com/3d-models/organ-lambung-34bbf12325a34dd5abf4feb12587b97a) by adhesoeryadie (https://sketchfab.com/adhesoeryadie) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
