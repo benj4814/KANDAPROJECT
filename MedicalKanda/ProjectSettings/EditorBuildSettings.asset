@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Quiz.unity
     guid: ab3193e529db34491a896bb053bea852
   - enabled: 1
-    path: Assets/Scenes/Game is Finished.unity
+    path: Assets/Prefabs/Game is Finished.unity
     guid: 66e44f21e94ec457a8e22c7559c34ee2
   m_configObjects: {}
