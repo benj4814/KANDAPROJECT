@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
-    private int buttonsPressed = 0;
+    private int buttonsPressed = 0; 
 
-    // Reference to the OpenDoor script attached to the door GameObject
+    // Referencen til vores OpenDoor script
     public OpenDoor doorOpener;
 
     public void ButtonPressed()
     {
-        buttonsPressed++;
+        buttonsPressed++; // Dette goer, at vores ButtonPressed bliver + med 1 naar vi klikker
 
-        if (buttonsPressed == 3)
+        if (buttonsPressed == 3) // Hvis ButtonPressed bliver = 3, saa koerer den scriptet DoorOpener
         {
             doorOpener.Open();
         }

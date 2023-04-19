@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+ // Alle vores variabler
 public class DoorController : MonoBehaviour {
     public GameObject leftDoor;
     public GameObject rightDoor;
@@ -11,13 +11,14 @@ public class DoorController : MonoBehaviour {
     public AudioSource doorAudioSource;
 public AudioClip doorOpenSound;
 
+// Koden her tjekker om vores "Player" er gaaet ind i vores TriggerZone. 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
             Debug.Log("Player entered trigger zone.");
             isPlayerInsideZone = true;
         }
     }
-
+// Koden her tjekker om vores "Player" er gaaet ud af vores TriggerZone igen
     private void OnTriggerExit(Collider other) {
         if (other.CompareTag("Player")) {
             Debug.Log("Player exited trigger zone.");
@@ -27,21 +28,21 @@ public AudioClip doorOpenSound;
 
     void Update() {
         if (isPlayerInsideZone && isOpen && Input.GetKeyDown(KeyCode.Mouse0)) {
-            // Close the doors
+            // Koden her goer, at hvis "Playeren" er inde i TriggerZonen, og doeren er aaben, saa lukker den hvis man tykker paa Mouse0
             StartCoroutine(RotateDoors(leftDoor.transform, Quaternion.Euler(0, 0, 0), smooth));
             StartCoroutine(RotateDoors(rightDoor.transform, Quaternion.Euler(0, 0, 0), smooth));
             isOpen = false;
-            doorAudioSource.PlayOneShot(doorOpenSound);
+            doorAudioSource.PlayOneShot(doorOpenSound); // Denne kode afspiller en lyd naar man klikker paa doeren
         } else if (isPlayerInsideZone && !isOpen && Input.GetKeyDown(KeyCode.Mouse0)) {
-            // Open the doors
+            // Koden her goer, at hvis "Playeren" er inde i TriggerZonen, og doeren er lukket, saa aabner den hvis man tykker paa Mouse0
             StartCoroutine(RotateDoors(leftDoor.transform, Quaternion.Euler(0, doorOpenAngle, 0), smooth));
             StartCoroutine(RotateDoors(rightDoor.transform, Quaternion.Euler(0, -doorOpenAngle, 0), smooth));
             isOpen = true;
 
-            doorAudioSource.PlayOneShot(doorOpenSound);
+            doorAudioSource.PlayOneShot(doorOpenSound); // Denne kode afspiller en lyd naar man klikker paa doeren
         }
     }
-
+// Koden har rotere doeren fra en nuvaerende location til en specifik end location
     IEnumerator RotateDoors(Transform door, Quaternion endRotation, float duration) {
         float t = 0f;
         Quaternion startRotation = door.rotation;
