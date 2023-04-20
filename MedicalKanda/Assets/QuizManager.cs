@@ -13,6 +13,8 @@ public class QuizManager : MonoBehaviour
     public Question[] questions;
     private void Awake()
     {
+        // It checks if an instance of the QuizManager already exists and either sets  
+        //the Instance variable to this instance or destroys the duplicate instance.
         if (Instance == null)
         {
             Instance = this;
